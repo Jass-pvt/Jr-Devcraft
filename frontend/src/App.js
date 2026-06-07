@@ -781,8 +781,8 @@ function Footer() {
             <div>
               <p className="text-purple-900 text-[10px] tracking-[0.4em] uppercase mb-3">Social</p>
               <div className="flex flex-col gap-2">
-                {["Instagram","Twitter","LinkedIn","Behance"].map(s => (
-                  <a key={s} href="#" className="text-gray-600 text-sm hover:text-purple-400 transition-colors">{s}</a>
+                {["Instagram","Twitter","Behance"].map(s => (
+                  <a key={s} href="https://www.instagram.com/webstudio.jr/" className="text-gray-600 text-sm hover:text-purple-400 transition-colors">{s}</a>
                 ))}
               </div>
             </div>
